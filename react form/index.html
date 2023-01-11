@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <script src="/main.js"></script>
+</head>
+
+<body style="margin: 42px;">
+    <section id="container" style="display: flex; justify-content: center;">
+        <div class="form_outline" style="display: inline-flex; background-color: aliceblue;">
+            <div class="image">
+                <img src="./img/1.jpg" alt="" style="width: 640px; height: 558px;">
+                <!-- <h2 style="background-color: #2196f3;height: 520px;margin: 0px; width: 400px;text-align: center;color: aliceblue;">Welcome </h2> -->
+            </div>
+            <div class="content" style="padding-left: 50px;padding-bottom: 20px; padding-right: 50px;align-items: center;">
+                <form id="RegistrationForm" onsubmit="recall()"> 
+                   <h3>Sign Up</h3>
+                    <h4 style="    margin-bottom: 10px;">Full Name</h4>
+                    <input type="text" id="name"required placeholder="  required Name" style="height: 25px; border-radius: 25px;">
+                    <h4 style="    margin-bottom: 10px;">Email</h4>
+                    <input type="email" id="email" required placeholder="  required Email"style="height: 25px; border-radius: 25px;">
+                    <h4 style="    margin-bottom: 10px;">Username</h4>
+                    <input type="text" id="username" required placeholder=" required  Username"style="height: 25px; border-radius: 25px;">
+                    <h4 style="    margin-bottom: 10px;">Password</h4>
+                    <input type="password"id="password" required placeholder="   Password"style="height: 25px; border-radius: 25px;"><br><br>
+                    <button type="submit" style="background-color: #2196f3; height: 40px;width: 110px; border-radius: 25px;">Sign up</button>
+                </form>
+            </div>
+        </div>
+    </section>
+   
+</body>
+</html>
